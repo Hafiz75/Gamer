@@ -1,0 +1,331 @@
+/* mobile responsive mobile responsive mobile responsive */
+/* mobile responsive mobile responsive mobile responsive */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  .logo-con {
+    margin: 100px auto 60px;
+  }
+  .menus {
+    flex-direction: column;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-img {
+    margin-right: 50px;
+    margin-left: 50px;
+    max-width: calc(100% - 100px); /**/
+  }
+  .banner-content {
+    padding: 20px;/* above 576px  have only margin-right: 3rem */
+    margin: 20px; /* above 576px have padding: 7.5vw 12.5vw */
+  }
+  .banner-title{
+    font-size: var(--font-32);
+  }
+
+  .game-featured {
+    font-size: var(--font-14);
+  }
+  .common-btn {
+    font-size: var(--font-16);
+  }
+
+  .we-are-gamer {
+    flex-direction: column;
+  }
+  .we-are-gamer-content {
+    text-align: center;
+    margin: auto;
+  }
+  .online-games-con {
+    flex-direction: column;
+    align-items: center;
+  }
+  .play-instantly {
+    flex-direction: column;
+  }
+  .play-instantly-title{
+    font-size: var(--font-32);
+  }
+  .play-instantly-content {
+    text-align: center;
+  }
+  .play-games-online {
+    flex-direction: column;
+  }
+  .play-games-online-title{
+    font-size: var(--font-32);
+  }
+  .play-games-online-content {
+    margin: auto;
+    text-align: center;
+  }
+
+  .play-instantly-small-img,
+  .play-games-online-small-img {
+    max-width: 115px;
+    height: 135px;
+    position: relative;
+    top: 160px;
+  }
+  .play-instantly-big-img,
+  .play-games-online-big-img {
+    max-width: 220px;
+    height: 245px;
+    object-fit: cover;
+  }
+  .move-left {
+    left: -70px;
+  }
+  .move-right {
+    left: 70px;
+  }
+
+  .careers{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .careers-content{
+    margin: 0;
+  }
+  .designation-place{
+    font-size: 8px;
+    gap: 20px;
+  }
+
+
+  .games-con{
+    padding: 5vw;
+  }
+  .role-playing{
+  margin-left: 0px;
+}
+
+/* footer has been made responsive by grid */
+footer{
+  padding: 20px;
+}
+
+/* our-details container has been made responsive */
+.our-details{
+  grid-template-areas: 
+  'story games web'
+  'career support account'
+  ;
+}
+.story{
+  grid-area: story;
+}
+.games{
+  grid-area: games;
+}
+.web{
+  grid-area: web;
+}
+.career{
+  grid-area: career;
+}
+.support{
+  grid-area: support;
+}
+.account{
+  grid-area: account;
+}
+/* social-con container been made responsive */
+.social-con{
+  grid-template-areas: 
+  'tw fb yt'
+  'in ins apple'
+  ;
+}
+.tw{
+  grid-area:  tw;
+}
+.fb{
+  grid-area: fb;
+}
+.yt{
+  grid-area: yt;
+}
+.in{
+  grid-area: in;
+}
+.ins{
+  grid-area: ins;
+}
+.apple{
+  grid-area: apple;
+}
+
+/* terms-condition container has been made responsive */
+.terms-condition{
+  grid-template-areas: 
+  'terms privacy'
+  'cookie setting'
+  ;
+}
+.terms{
+  grid-area: terms;
+}
+.privacy{
+  grid-area: privacy;
+}
+.cookie{
+  grid-area: cookie;
+}
+.setting{
+  grid-area: setting;
+}
+.copyright-break{ 
+   display: block;
+  }
+}
+
+/* Tablet responsive Tablet responsive Tablet responsive */
+/* Tablet responsive Tablet responsive Tablet responsive */
+@media only screen and (min-width: 576px) and (max-width: 968px) {
+  nav {
+    flex-direction: column;
+    padding: 0;
+  }
+  .logo-con {
+    margin: 100px auto 60px;
+  }
+  .menus {
+    margin: auto;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-img {
+    margin: auto;
+  }
+  .banner-content {
+    margin: auto;
+  }
+
+  /* we-are-gamer section releted style */
+
+  .we-are-gamer {
+    flex-direction: column;
+  }
+  .we-are-gamer-img {
+    margin: auto;
+  }
+  .we-are-gamer-content {
+    text-align: center;
+    margin: auto;
+  }
+  .online-games-con {
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .play-instantly {
+    flex-direction: column;
+    margin: 0 12vw 6.25vw;
+  }
+  .play-games-online {
+    flex-direction: column;
+    margin: 12.5vw 12vw 6vw 0;
+  }
+  .play-instantly-content,
+  .play-games-online-content {
+    margin: auto;
+    text-align: center;
+  }
+
+
+  .careers{
+    flex-direction: column;
+    padding: 6.50vw;
+    margin-top: 120px;
+  }
+  .careers-content{
+    margin: 0;
+  }
+
+  
+/* footer has been made responsive by grid */
+footer{
+  padding: 40px;
+}
+
+/* our-details container has been made responsive */
+.our-details{
+  grid-template-areas: 
+  'story games web'
+  'career support account'
+  ;
+}
+.story{
+  grid-area: story;
+}
+.games{
+  grid-area: games;
+}
+.web{
+  grid-area: web;
+}
+.career{
+  grid-area: career;
+}
+.support{
+  grid-area: support;
+}
+.account{
+  grid-area: account;
+}
+/* social-con container been made responsive */
+.social-con{
+  grid-template-areas: 
+  'tw fb yt'
+  'in ins apple'
+  ;
+}
+.tw{
+  grid-area:  tw;
+}
+.fb{
+  grid-area: fb;
+}
+.yt{
+  grid-area: yt;
+}
+.in{
+  grid-area: in;
+}
+.ins{
+  grid-area: ins;
+}
+.apple{
+  grid-area: apple;
+}
+
+/* terms-condition container has been made responsive */
+.terms-condition{
+  grid-template-areas: 
+  'terms privacy'
+  'cookie setting'
+  ;
+}
+.terms{
+  grid-area: terms;
+}
+.privacy{
+  grid-area: privacy;
+}
+.cookie{
+  grid-area: cookie;
+}
+.setting{
+  grid-area: setting;
+}
+}
